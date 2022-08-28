@@ -44,8 +44,8 @@
 
 # 🌱 plantManagement-arduino 🌱
 ### Wemos D1 / breadboard / DHT22 / YL-38
-<img src="https://user-images.githubusercontent.com/104901660/187080048-fb041ceb-ef12-4af1-916b-3b8ba6e2ffd1.jpg" width="700" height="700"/>
-<br/>
+<img src="https://user-images.githubusercontent.com/104901660/187080048-fb041ceb-ef12-4af1-916b-3b8ba6e2ffd1.jpg" width="700" height="700"/>  
+
 <div><img src="https://user-images.githubusercontent.com/104901660/187082517-802e09d9-6e82-47b1-b177-3802b445bfb6.png" width="30" height="15"/> red: (breadboard) f1 - (WemosD1) 5V</div>
 <div><img src="https://user-images.githubusercontent.com/104901660/187082988-d18f57ef-7ba4-4317-bc7d-579102217e60.png" width="30" height="15"/> white: (breadboard) f2 - (WemosD1) D3</span></div>
 <div><img src="https://user-images.githubusercontent.com/104901660/187082749-66b671ff-0786-477b-816e-c3cc245223be.png" width="30" height="15"/> black: (breadboard) f3 - (WemosD1) GND</span></div>
