@@ -43,12 +43,12 @@
 
 
 # 🌱 plantManagement-arduino 🌱
-### Wemos D1 / breadboard / DHT22 / YL-38 사용
+### Wemos D1 / breadboard / DHT22 / YL-38
 <img src="https://user-images.githubusercontent.com/104901660/187080048-fb041ceb-ef12-4af1-916b-3b8ba6e2ffd1.jpg" width="700" height="700"/>
 <br/>
-<div><img src="https://user-images.githubusercontent.com/104901660/187082517-802e09d9-6e82-47b1-b177-3802b445bfb6.png" width="30" height="15"/> red: (breadboard)f1 - (WemosD1)5V</div>
-<div><img src="https://user-images.githubusercontent.com/104901660/187082988-d18f57ef-7ba4-4317-bc7d-579102217e60.png" width="30" height="15"/> white: (breadboard)f2 - (WemosD1)D3</span></div>
-<div><img src="https://user-images.githubusercontent.com/104901660/187082749-66b671ff-0786-477b-816e-c3cc245223be.png" width="30" height="15"/> black: (breadboard)f3 - (WemosD1)GND</span></div>
-<div><img src="https://user-images.githubusercontent.com/104901660/187082754-f3812bca-8462-4eb1-b774-c2d2044bc129.png" width="30" height="15"/> orange: (YL-38)A0 - (WemosD1)A0</span></div>
-<div><img src="https://user-images.githubusercontent.com/104901660/187082751-9f25e781-3770-40c0-82d5-971d518b2556.png" width="30" height="15"/> blue: (YL-38)GND - (WemosD1)GND</span></div>
-<div><img src="https://user-images.githubusercontent.com/104901660/187082753-154776ae-c656-4e1c-a1df-45920392c43a.png" width="30" height="15"/> green: (YL-38)VCC - (WemosD1)3.3V</span></div>
+<div><img src="https://user-images.githubusercontent.com/104901660/187082517-802e09d9-6e82-47b1-b177-3802b445bfb6.png" width="30" height="15"/> red: (breadboard) f1 - (WemosD1) 5V</div>
+<div><img src="https://user-images.githubusercontent.com/104901660/187082988-d18f57ef-7ba4-4317-bc7d-579102217e60.png" width="30" height="15"/> white: (breadboard) f2 - (WemosD1) D3</span></div>
+<div><img src="https://user-images.githubusercontent.com/104901660/187082749-66b671ff-0786-477b-816e-c3cc245223be.png" width="30" height="15"/> black: (breadboard) f3 - (WemosD1) GND</span></div>
+<div><img src="https://user-images.githubusercontent.com/104901660/187082754-f3812bca-8462-4eb1-b774-c2d2044bc129.png" width="30" height="15"/> orange: (YL-38) A0 - (WemosD1) A0</span></div>
+<div><img src="https://user-images.githubusercontent.com/104901660/187082751-9f25e781-3770-40c0-82d5-971d518b2556.png" width="30" height="15"/> blue: (YL-38) GND - (WemosD1) GND</span></div>
+<div><img src="https://user-images.githubusercontent.com/104901660/187082753-154776ae-c656-4e1c-a1df-45920392c43a.png" width="30" height="15"/> green: (YL-38) VCC - (WemosD1) 3.3V</span></div>
