@@ -1,0 +1,41 @@
+<!-- Good & Bad Status Window -->
+
+<% var tmp = !arrow(now.temp, setting.temp, 5) && !arrow(now.humi, setting.humi) && !arrow(now.soil, setting.soil, 2) %>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Font+Awesome+5+Free&display=swap" rel="stylesheet" />
+    <link href="/public/<%- tmp ? "third" : "fourth" %>.css" rel="stylesheet" />
+    <title>Status</title>
+</head>
+
+<body>
+    <div class="window"><span class="status">현재 <%= name %>의 상태는</span>
+        <% if (tmp) { %>
+            <span class="status_img"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path style="fill:rgb(255,255,255);", d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM164.1 325.5C158.3 318.8 148.2 318.1 141.5 323.9C134.8 329.7 134.1 339.8 139.9 346.5C162.1 372.1 200.9 400 255.1 400C311.1 400 349.8 372.1 372.1 346.5C377.9 339.8 377.2 329.7 370.5 323.9C363.8 318.1 353.7 318.8 347.9 325.5C329.9 346.2 299.4 368 255.1 368C212.6 368 182 346.2 164.1 325.5H164.1zM176.4 176C158.7 176 144.4 190.3 144.4 208C144.4 225.7 158.7 240 176.4 240C194 240 208.4 225.7 208.4 208C208.4 190.3 194 176 176.4 176zM336.4 240C354 240 368.4 225.7 368.4 208C368.4 190.3 354 176 336.4 176C318.7 176 304.4 190.3 304.4 208C304.4 225.7 318.7 240 336.4 240z"/></svg></span>
+        <% } else { %>
+            <span class="status_img"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path style="fill:rgb(255,255,255);", d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM159.3 388.7C171.5 349.4 209.9 320 256 320C302.1 320 340.5 349.4 352.7 388.7C355.3 397.2 364.3 401.9 372.7 399.3C381.2 396.7 385.9 387.7 383.3 379.3C366.8 326.1 315.8 287.1 256 287.1C196.3 287.1 145.2 326.1 128.7 379.3C126.1 387.7 130.8 396.7 139.3 399.3C147.7 401.9 156.7 397.2 159.3 388.7H159.3zM176.4 176C158.7 176 144.4 190.3 144.4 208C144.4 225.7 158.7 240 176.4 240C194 240 208.4 225.7 208.4 208C208.4 190.3 194 176 176.4 176zM336.4 240C354 240 368.4 225.7 368.4 208C368.4 190.3 354 176 336.4 176C318.7 176 304.4 190.3 304.4 208C304.4 225.7 318.7 240 336.4 240z"/></svg></span>
+        <% } %>
+        <div class="temp"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path style="fill:rgb(255,255,255);", d="M160 322.9V112C160 103.3 152.8 96 144 96S128 103.3 128 112v210.9C109.4 329.5 96 347.1 96 368C96 394.5 117.5 416 144 416S192 394.5 192 368C192 347.1 178.6 329.5 160 322.9zM416 0c-52.88 0-96 43.13-96 96s43.13 96 96 96s96-43.13 96-96S468.9 0 416 0zM416 128c-17.75 0-32-14.25-32-32s14.25-32 32-32s32 14.25 32 32S433.8 128 416 128zM256 112c0-61.88-50.13-112-112-112s-112 50.13-112 112v166.5c-19.75 24.75-32 55.5-32 89.5c0 79.5 64.5 144 144 144s144-64.5 144-144c0-33.1-12.25-64.88-32-89.5V112zM144 448c-44.13 0-80-35.88-80-80c0-25.5 12.25-48.88 32-63.75v-192.3c0-26.5 21.5-48 48-48S192 85.5 192 112V304.3c19.75 14.75 32 38.25 32 63.75C224 412.1 188.1 448 144 448z"/></svg></div>
+        <div class="humi"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path style="fill:rgb(255,255,255);", d="M16 319.1C16 245.9 118.3 89.43 166.9 19.3C179.2 1.585 204.8 1.585 217.1 19.3C265.7 89.43 368 245.9 368 319.1C368 417.2 289.2 496 192 496C94.8 496 16 417.2 16 319.1zM112 319.1C112 311.2 104.8 303.1 96 303.1C87.16 303.1 80 311.2 80 319.1C80 381.9 130.1 432 192 432C200.8 432 208 424.8 208 416C208 407.2 200.8 400 192 400C147.8 400 112 364.2 112 319.1z"/></svg></div>
+        <div class="soil"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path style="fill:rgb(255,255,255);", d="M223.1 0C262.6 0 295.9 22.82 311.2 55.7C325.7 41.07 345.8 32 368 32C406.7 32 438.1 59.48 446.4 96H448C483.3 96 512 124.7 512 160C512 195.3 483.3 224 448 224H127.1C92.65 224 63.1 195.3 63.1 160C63.1 124.7 92.65 96 127.1 96C127.1 42.98 170.1 0 223.1 0zM92.58 372.3C85.76 383.7 71.02 387.4 59.65 380.6C48.29 373.8 44.6 359 51.42 347.7L99.42 267.7C106.2 256.3 120.1 252.6 132.3 259.4C143.7 266.2 147.4 280.1 140.6 292.3L92.58 372.3zM468.3 259.4C479.7 266.2 483.4 280.1 476.6 292.3L428.6 372.3C421.8 383.7 407 387.4 395.7 380.6C384.3 373.8 380.6 359 387.4 347.7L435.4 267.7C442.2 256.3 456.1 252.6 468.3 259.4V259.4zM204.6 372.3C197.8 383.7 183 387.4 171.7 380.6C160.3 373.8 156.6 359 163.4 347.7L211.4 267.7C218.2 256.3 232.1 252.6 244.3 259.4C255.7 266.2 259.4 280.1 252.6 292.3L204.6 372.3zM356.3 259.4C367.7 266.2 371.4 280.1 364.6 292.3L316.6 372.3C309.8 383.7 295 387.4 283.7 380.6C272.3 373.8 268.6 359 275.4 347.7L323.4 267.7C330.2 256.3 344.1 252.6 356.3 259.4V259.4zM384 448C410.9 448 439.4 437.2 461.4 421.9L461.5 421.9C473.4 413.4 489.5 414.1 500.7 423.6C515 435.5 533.2 444.6 551.3 448.8C568.5 452.8 579.2 470.1 575.2 487.3C571.2 504.5 553.1 515.2 536.7 511.2C512.2 505.4 491.9 494.6 478.5 486.2C449.5 501.7 417 512 384 512C352.1 512 323.4 502.1 303.6 493.1C297.7 490.5 292.5 487.8 288 485.4C283.5 487.8 278.3 490.5 272.4 493.1C252.6 502.1 223.9 512 192 512C158.1 512 126.5 501.7 97.5 486.2C84.12 494.6 63.79 505.4 39.27 511.2C22.06 515.2 4.853 504.5 .8422 487.3C-3.169 470.1 7.532 452.8 24.74 448.8C42.84 444.6 60.96 435.5 75.31 423.6C86.46 414.1 102.6 413.4 114.5 421.9L114.6 421.9C136.7 437.2 165.1 448 192 448C219.5 448 247 437.4 269.5 421.9C280.6 414 295.4 414 306.5 421.9C328.1 437.4 356.5 448 384 448H384z"/></svg></div>
+        <div class="point1"><%= arrow(now.temp, setting.temp, 5) %></div>
+        <div class="point2"><%= arrow(now.humi, setting.humi, 5) %></div>
+        <div class="point3"><%= arrow(now.soil, setting.soil, 2) %></div>
+        <div class="tempNum"><%= now.temp %>℃</div>
+        <div class="humiNum"><%= now.humi %>%</div>
+        <div class="soilNum"><%= now.soil %>%</div>
+        
+        <button class="list" onclick="location.href='./second'">다른 식물 확인</button>
+        <button class="delete" onclick="location.href='/delete?name=<%= name %>'">삭제</button>
+
+    </div>
+</body>
+
+<script>
+    setTimeout(() => location.reload(), 3000);
+</script>
+
+</html>

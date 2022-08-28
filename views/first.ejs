@@ -1,0 +1,27 @@
+<!-- Input Window -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+    <link href="/public/first.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Font+Awesome+5+Free&display=swap" rel="stylesheet" />
+    <title>Input</title>
+</head>
+
+<body>
+    <span class="title">스마트 식물 관리</span>
+    <form method="POST" action="/save">
+        <input class="name" type="text" name="name" placeholder="이름을 입력하세요">
+        <input class="temp" type="number" name="temp" placeholder="적정 온도를 입력하세요">
+        <input class="humi" type="number" name="humi" placeholder="적정 습도를 입력하세요">
+        <input class="soil" type="number" name="soil" placeholder="적정 토양 수분을 입력하세요">
+        <input type="submit" class="save" value="저장" />
+        <button type="button" class="list" onClick="location.href = './second'">식물 상태 확인</button>
+    </form>
+    
+    <!-- <button class="save" onclick="location.href='./save'">저장</button> -->
+    <!-- <button type="button" class="list" onClick="location.href = './second'">식물 상태 확인</button> -->
+</body>
+
+</html>

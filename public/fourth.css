@@ -1,0 +1,216 @@
+/* Bad Status */
+
+@import url('https://fonts.googleapis.com/css?family=Jua:400');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+}
+
+.window {
+  /* 창 */
+  width: 100%;
+  height: 100vh;   /* 1vh = 브라우저 화면 높이의 1% */
+  background: linear-gradient(rgba(182,68,68,1), rgba(61,109,92,0));
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.status { 
+  /* 현재 ~의 상태는 */
+  width: 800px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 12%;
+  left: calc(50% - 800px/2);
+  font-family: 'Nanum Gothic';
+  font-weight: Regular;
+  font-size: 22px;
+  opacity: 1;
+  text-align: center;
+}
+
+.status_img {
+  /* 상태 이미지 */
+  width: 146px;
+  height: 173px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 17%;
+  left: calc(50% - 146px/2);
+  font-family: 'Font Awesome 5 Free';
+  font-weight: Solid;
+  font-size: 150px;
+  opacity: 1;
+  text-align: center;
+}
+
+/* Temperature */
+.temp {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 110px;
+  text-align: center;
+  color: #FFFFFF;
+  position: absolute;
+  width: 96px;
+  height: 110px;
+  top: calc(60% - 110px/2);
+  left: calc(41% - 96px/2);
+}
+
+.point1 {
+  font-family: 'Jua';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 77px;
+  text-align: center;
+  color: #FFFFFF;
+  position: absolute;
+  width: 62px;
+  height: 77px;
+  top: calc(63% - 77px/2);
+  left: calc(43% - 45px/2);
+}
+
+.tempNum {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  top: calc(75% - 77px/2);
+  left: calc(40% - 62px/2);
+  position: absolute;
+  width: 62px;
+  height: 77px;
+  color: #FFFFFF;
+}
+
+/* Humidity */
+.humi {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 110px;
+  text-align: center;
+  color: #FFFFFF;
+  position: absolute;
+  width: 96px;
+  height: 110px;
+  top: calc(60% - 110px/2);
+  left: calc(51% - 96px/2);
+}
+
+.point2 {
+  font-family: 'Jua';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 77px;
+  text-align: center;
+  color: #FFFFFF;
+  position: absolute;
+  width: 62px;
+  height: 77px;
+  top: calc(63% - 77px/2);
+  left: calc(53% - 45px/2);
+}
+
+.humiNum {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  top: calc(75% - 77px/2);
+  left: calc(50% - 62px/2);
+  position: absolute;
+  width: 62px;
+  height: 77px;
+  color: #FFFFFF;
+}
+
+/* Soil Moisture */
+.soil {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 110px;
+  text-align: center;
+  color: #FFFFFF;
+  position: absolute;
+  width: 96px;
+  height: 110px;
+  top: calc(60% - 110px/2);
+  left: calc(61% - 96px/2);
+}
+
+.point3 {
+  font-family: 'Jua';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 77px;
+  text-align: center;
+  color: #FFFFFF;
+  position: absolute;
+  width: 62px;
+  height: 77px;
+  top: calc(63% - 77px/2);
+  left: calc(65% - 45px/2);
+}
+
+.soilNum {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  top: calc(75% - 77px/2);
+  left: calc(60% - 62px/2);
+  position: absolute;
+  width: 62px;
+  height: 77px;
+  color: #FFFFFF;
+}
+
+.list {
+  /* 다른식물확인 버튼 */
+  font-family: 'Nanum Gothic';
+  background: #3D6D5C;
+  position: relative;
+  width: 180px;
+  height: 50px;
+  border-radius: 50px;
+  top: calc(87% - 50px/2);
+  left: calc(44% - 200px/2);
+  color: #FFFFFF;
+  border: #3D6D5C;
+}
+
+.delete {
+  /* 삭제 버튼 */
+  font-family: 'Nanum Gothic';
+  background: #3D6D5C;
+  position: relative;
+  width: 180px;
+  height: 50px;
+  border-radius: 50px;
+  top: calc(87% - 50px/2);
+  left: calc(46% - 200px/2);
+  color: #FFFFFF;
+  border: #3D6D5C;
+}

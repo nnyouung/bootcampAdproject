@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400');
+
+/* 잎의 순서대로 1~9 */
+.leaf1 {
+    position: absolute;
+    width: 97px;
+    height: 119px;
+    left: calc(38% - 97px/2);
+    top: calc(22% - 119px/2);
+}
+
+.leaf2 {
+    position: absolute;
+    width: 97px;
+    height: 119px;
+    left: calc(50% - 97px/2);
+    top: calc(22% - 119px/2);
+}
+
+.leaf3 {
+    position: absolute;
+    width: 97px;
+    height: 119px;
+    left: calc(62% - 97px/2);
+    top: calc(22% - 119px/2);
+}
+
+.leaf4 {
+    position: absolute;
+    width: 97px;
+    height: 118px;
+    left: calc(38% - 97px/2);
+    top: calc(45% - 119px/2);
+}
+
+.leaf5 {
+    position: absolute;
+    width: 97px;
+    height: 118px;
+    left: calc(50% - 97px/2);
+    top: calc(45% - 119px/2);
+}
+
+.leaf6 {
+    position: absolute;
+    width: 97px;
+    height: 118px;
+    left: calc(62% - 97px/2);
+    top: calc(45% - 119px/2);
+}
+
+.leaf7 {
+    position: absolute;
+    width: 97px;
+    height: 119px;
+    left: calc(38% - 97px/2);
+    top: calc(68% - 119px/2);
+}
+
+.leaf8 {
+    position: absolute;
+    width: 97px;
+    height: 119px;
+    left: calc(50% - 97px/2);
+    top: calc(68% - 119px/2);
+}
+
+.leaf9 {
+    position: absolute;
+    width: 97px;
+    height: 119px;
+    left: calc(62% - 97px/2);
+    top: calc(68% - 119px/2);
+}
+
+.back {
+    /* 새로입력 버튼 */
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    top: calc(90% - 119px/2);
+    left: calc(50% - 200px/2);
+    font-family: 'Nanum Gothic';
+    border-radius: 50px;
+    background-color: #3D6D5C;
+    color: white;
+    border: #3D6D5C;
+}
