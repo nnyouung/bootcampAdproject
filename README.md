@@ -1,4 +1,4 @@
-# 🌱 plantManagement-webpage 🌱
+# 🌱 plantManagementSystem-webpage 🌱
 ## 1. Input  
 
 <img src="https://user-images.githubusercontent.com/104901660/187078752-a72a2788-fc91-4e6b-af21-9b5dd57a92b8.png" width="900" height="473"/>
@@ -42,7 +42,7 @@
 <br/>
 
 
-# 🌱 plantManagement-arduino 🌱
+# 🌱 plantManagementSystem-arduino 🌱
 ### Wemos D1 / breadboard / DHT22 / YL-38
 <img src="https://user-images.githubusercontent.com/104901660/187080048-fb041ceb-ef12-4af1-916b-3b8ba6e2ffd1.jpg" width="700" height="700"/>  
 
