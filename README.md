@@ -1,7 +1,5 @@
 # 🌱 plantManagementSystem-Webpage 🌱
 
-- - -
-
 ## 1. Input  
 
 <img src="https://user-images.githubusercontent.com/104901660/187078752-a72a2788-fc91-4e6b-af21-9b5dd57a92b8.png" width="900" height="473"/>
