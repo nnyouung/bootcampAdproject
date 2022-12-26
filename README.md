@@ -4,6 +4,7 @@
 
 <img src="https://user-images.githubusercontent.com/104901660/187078752-a72a2788-fc91-4e6b-af21-9b5dd57a92b8.png" width="900" height="473"/>
 
+<br/><br/>
 
 ## 2. List 창
 ### 2-1. Input 창에서 식물을 추가하기 전의 페이지.  
@@ -16,6 +17,7 @@
 
 <img src="https://user-images.githubusercontent.com/104901660/187077883-d7258505-9bdd-4dbf-ab78-066945d3dfef.png" width="900" height="473"/>
 
+<br/><br/>
 
 ## 3. Status
 ### Good Status: 실시간 정보가 적정 정보에 적합할 때의 페이지.
@@ -29,10 +31,12 @@
 - 그림 순서대로 온도, 습도, 토양 수분의 실시간 온도.
 - 적정 정보보다 실시간 정보가 높으면 ↑, 낮으면 ↓가 뜸.  
 
-<img src="https://user-images.githubusercontent.com/104901660/187077891-d7624721-a782-4e5c-ac4f-afa8bc526f0e.png" width="900" height="473"/>
+<img src="https://user-images.githubusercontent.com/104901660/187077891-d7624721-a782-4e5c-ac4f-afa8bc526f0e.png" width="900" height="473"/>  
 
 
 - - -
+
+
 
 # 🌱 plantManagementSystem-Arduino 🌱
 ### Wemos D1 / breadboard / DHT22 / YL-38
