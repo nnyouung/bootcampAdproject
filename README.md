@@ -36,9 +36,7 @@
 <img src="https://user-images.githubusercontent.com/104901660/187077891-d7624721-a782-4e5c-ac4f-afa8bc526f0e.png" width="900" height="473"/>
 
 
-<br/>
 - - -
-<br/>
 
 # 🌱 plantManagementSystem-Arduino 🌱
 ### Wemos D1 / breadboard / DHT22 / YL-38
